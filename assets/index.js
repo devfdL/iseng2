@@ -21,24 +21,28 @@ function startTime() {
     document.getElementById('date').innerHTML =
     date;   
     var t = setTimeout(startTime, 500);
-
+    
     x.play();
 
-    if (time < '03:00:00'){
-        typeWriter('hai mayy.. tidur udah malem hehehe  -fadhil')
+    if (time <= '03:00:00'){
+        typeWriter('hai tasya.. tidur udah malem hehehe -fadhil')
     }
 
-    if (time < '10:00:00'){
-        typeWriter('haii mayy..good morning, have a good day yaaaa -fadhil')
+    if (time <= '11:00:00'){
+        typeWriter('haii tasya..good morning, have a good day yaaaa -fadhil')
     }
 
-    if (time < '20:00:00'){
-        typeWriter('haii mayy, gimana hari nya? semoga menyenangkan yaa hehehe -fadhil')
+    if (time <= '15:00:00'){
+        typeWriter('haii tasya, selamat siangg, semoga harimu menyenangkan yaa hehehe -fadhil')
     }
     
 
+    if (time <= '18:00:00'){
+        typeWriter('haii tasya..selamat sore, bagai mana hari mu? semoga harimu menyenangkan yaa hehehe -fadhil')
+    }
+
     if (time <= '23:59:00'){
-        typeWriter('haii mayy..good night, gimana hari ini? semoga menyenangkan yaa hehehe, jangan tidur malem-malem yaaaa -fadhil')
+        typeWriter('haii tasya.. selamat malam, bagai mana hari mu? jangan tidur malem-malem yaaaa -fadhil')
     }
 }
 
@@ -74,6 +78,3 @@ var nodesjs = new NodesJs({
     speed: 20,
     pointerCircleRadius: 150
 });
-
- 
-
