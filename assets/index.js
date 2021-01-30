@@ -25,24 +25,24 @@ function startTime() {
     x.play();
 
     if (time <= '03:00:00'){
-        typeWriter('hai tasya.. tidur udah malem hehehe -fadhil')
+        typeWriter('hai tasya.. tidur udah malem hehehe')
     }
 
     if (time <= '11:00:00'){
-        typeWriter('haii tasya..good morning, have a good day yaaaa -fadhil')
+        typeWriter('haii tasya..good morning, have a good day yaaaa')
     }
 
     if (time <= '15:00:00'){
-        typeWriter('haii tasya, selamat siangg, semoga harimu menyenangkan yaa hehehe -fadhil')
+        typeWriter('haii tasya, selamat siangg, semoga harimu menyenangkan yaa hehehe')
     }
     
 
     if (time <= '18:00:00'){
-        typeWriter('haii tasya..selamat sore, bagai mana hari mu? semoga harimu menyenangkan yaa hehehe -fadhil')
+        typeWriter('haii tasya..selamat sore, bagai mana hari mu? semoga harimu menyenangkan yaa hehehe')
     }
 
     if (time <= '23:59:00'){
-        typeWriter('haii tasya.. selamat malam, bagai mana hari mu? jangan tidur malem-malem yaaaa -fadhil')
+        typeWriter('haii tasya.. selamat malam, bagai mana hari mu? jangan tidur malem-malem yaaaa')
     }
 }
 
